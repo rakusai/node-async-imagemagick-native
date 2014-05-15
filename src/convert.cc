@@ -49,7 +49,6 @@ ConvertData * fetchConvertOptions(const Arguments& args){
 
 bool Convert (ConvertData* option) {
 
-  sleep(1);
   if (option->debug) printf("Convert\n");
 
   Magick::Image image;
