@@ -33,6 +33,8 @@ ConvertData * fetchConvertOptions(const Arguments& args){
   strcpy(options->format, getStringFromObject(obj, "format", ""));
   strcpy(options->resizeStyle, getStringFromObject(obj, "resizeStyle", "aspectfit"));
 
+  strcpy(options->errmsg, "");
+
   if (options->debug){
     printf( "srcPath: %s\n", options->srcPath );
     printf( "outPath: %s\n", options->outPath );
