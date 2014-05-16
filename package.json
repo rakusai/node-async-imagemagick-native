@@ -2,7 +2,7 @@
   "name": "node-async-imagemagick-native",
   "version": "0.0.0",
   "description": "Node.js Addons Example #9",
-  "main": "sample.js",
+  "main": "index.js.js",
   "private": true,
   "scripts": {
     "test": "node sample.js",
