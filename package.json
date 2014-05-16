@@ -2,7 +2,17 @@
   "name": "node-async-imagemagick-native",
   "version": "0.0.0",
   "description": "Node.js Addons Example #9",
-  "main": "addon.js",
+  "main": "sample.js",
   "private": true,
+  "scripts": {
+    "test": "node sample.js",
+    "install": "node-gyp rebuild"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+    "nan": "*"
+  },
   "gypfile": true
 }
